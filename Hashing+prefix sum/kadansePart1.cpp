@@ -14,7 +14,7 @@ int main(){
 
     int maximum = INT_MIN;
     maximum = max(maximum, prefix[0]);
-    
+
     for(int i=1; i<arr.size(); i++){
         prefix[i] = max({prefix[i-1] + arr[i], arr[i], 0});
         maximum = max(maximum, prefix[i]);
