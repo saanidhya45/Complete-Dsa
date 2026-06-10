@@ -16,6 +16,8 @@ int main(){
         }
     }
 
+    // (n*2)
+
     for(int i=0; i<nums3.size(); i++){
         for(int j=0; j<nums4.size(); j++){
             for(int k=0; k<nums5.size(); k++){
@@ -25,7 +27,10 @@ int main(){
                 }
             }
         }
+
     }
+
+    // (n*3)
 
     cout << total << endl;
 
